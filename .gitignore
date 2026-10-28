@@ -1,0 +1,4 @@
+# Private agent memory (see AGENTS.md)
+.memory/
+.locks/
+.DS_Store
