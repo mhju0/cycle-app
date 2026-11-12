@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Local links and assets resolve
-        run: python3 scripts/check_site.py
+        run: scripts/check.sh --part check
