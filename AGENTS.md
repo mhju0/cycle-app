@@ -4,3 +4,4 @@ Public support and privacy pages for the Cycle iOS app (source app: the local `p
 
 - At session start, read `.memory/README.md` if it exists (private, git-ignored). Before ending a session that changed something, update `.memory/handoff.md`.
 - The privacy page must match what the app actually does (no network code, analytics, ads or accounts). Check the app's `docs/spec.md` before changing it.
+- Done means `scripts/check.sh` prints GATE: PASS; paste the last lines.
